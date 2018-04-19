@@ -1,0 +1,11 @@
+
+.layer-message {
+  color: #fff;
+  background-color: #555;
+  text-align: center;
+}
+
+.layer-confirm,
+.layer-alert {
+  padding: 15px 10px 0;
+}

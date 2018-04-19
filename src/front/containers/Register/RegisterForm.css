@@ -1,0 +1,52 @@
+.checkboxHelpText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 7px;
+
+  & a {
+    color: #2f93e1;
+  }
+}
+
+.group {
+  margin-bottom: 24px;
+}
+
+.label {
+  font-weight: normal;
+
+  @nest :global(.form-horizontal) & {
+    @media (min-width: 768px) {
+      padding-top: 12px;
+    }
+  }
+}
+
+.input {
+  height: 42px;
+  border: 1px solid #dedede;
+}
+
+.error {
+  padding-top: 7px;
+}
+
+.toggle {
+  padding-top: 5px;
+  text-align: right;
+  margin-bottom: -10px;
+}
+
+.countdown,
+.countdown:hover,
+.countdown[disabled]:hover {
+  height: 42px;
+  border: 1px solid #2f93e1;
+  color: #2f93e1;
+}
+
+.addon {
+  color: #ccc;
+  border: 1px solid #dedede;
+  background-color: #fff;
+}

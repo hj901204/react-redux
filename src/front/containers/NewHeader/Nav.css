@@ -1,0 +1,42 @@
+.wrap {
+  font-family:"Microsoft YaHei";
+  & a {
+    display: inline-block;
+    padding: 0 25px;
+    line-height: 70px;
+    color: #28292c;
+    font-size: 16px;
+  }
+  & .signUpBtn {
+    width: 90px;
+    height: 36px;
+    background-color:#2f93e1;
+    color: #ebedf1;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 36px;
+    margin: 18px 0;
+    margin-right: 18px;
+    float: right;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+  }
+  & .loginBtn {
+    width: 90px;
+    height: 36px;
+    background-color: #2f93e1;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 36px;
+    margin: 18px 0;
+    float: right;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+  }
+}
+

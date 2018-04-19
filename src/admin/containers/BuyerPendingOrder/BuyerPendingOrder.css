@@ -1,0 +1,138 @@
+.container {
+  position: relative;
+  margin: 0 20px;
+  padding: 20px 0;
+  height: 88%;
+
+  @media (max-height: 700px) {
+    height: 81%;
+  }
+
+  @media (max-height: 1000px) {
+    height: 81%;
+  }
+
+  @media (min-height: 1000px) {
+    height: 85%;
+  }
+
+  @media (min-height: 1200px) {
+    height: 88%;
+  }
+
+  @media (min-width: 1400px) {
+    height: 88%;
+  }
+}
+
+.table {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.noData {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.header {
+  @media (min-width: 750px) {
+    padding-right: 0;
+  }
+
+  @media (min-width: 1200px) {
+    padding-right: 17px;
+  }
+}
+
+.ht {
+  padding: 16px 8px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  border: 1px solid #d7d7d7;
+  overflow: hidden;
+  clear: both;
+  background: #fafafa;
+  width: 100%;
+
+  & th {
+    height: 50px;
+  }
+}
+
+.one {
+  width: 50px;
+  min-width: 50px;
+}
+
+.two {
+  /* width: 23%; */
+  padding-left: 16px;
+  padding-right: 8px;
+}
+
+.three {
+  @media (min-width: 750px) {
+    width: 14.5%;
+    padding: 0 8px;
+  }
+
+  @media (min-width: 1000px) {
+    width: 16%;
+    text-align: center;
+    padding: 0 8px;
+  }
+}
+
+.four {
+  @media (min-width: 750px) {
+    width: 14.5%;
+    padding: 0 16px;
+  }
+
+  @media (min-width: 1000px) {
+    width: 16%;
+    text-align: center;
+    padding: 0 8px;
+  }
+}
+
+.five {
+  @media (min-width: 750px) {
+    width: 15%;
+    padding: 0 8px;
+  }
+
+  @media (min-width: 1000px) {
+    width: 16%;
+    text-align: center;
+    padding: 0 8px;
+  }
+}
+
+.six {
+  @media (min-width: 750px) {
+    width: 12%;
+    padding: 0;
+  }
+
+  @media (min-width: 1000px) {
+    width: 13%;
+    text-align: center;
+    padding: 0 8px;
+  }
+}
+
+.seven {
+  @media (min-width: 750px) {
+    width: 13%;
+    padding: 0;
+  }
+
+  @media (min-width: 1000px) {
+    width: 13%;
+    text-align: center;
+    padding: 0 8px;
+  }
+}

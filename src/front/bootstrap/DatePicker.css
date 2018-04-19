@@ -1,0 +1,27 @@
+.react-datepicker__input-container,
+.react-datepicker-wrapper {
+  display: block;
+}
+
+.react-datepicker-popper {
+  z-index: 10;
+}
+
+.form-inline {
+  & .datepicker-wrap {
+    display: inline-block;
+  }
+  & .react-datepicker__input-container,
+  & .react-datepicker-wrapper {
+    display: block;
+  }
+}
+.react-datepicker__day-name,
+.react-datepicker__day, .react-datepicker__time-name {
+  width: 2rem;
+  line-height: 1.7rem;
+  margin: 0.55rem;
+  font-size: 1.5rem; }
+
+.react-datepicker__current-month, .react-datepicker-time__header {
+  font-size: 1.2rem; }

@@ -1,0 +1,13 @@
+.container {
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.content {
+  display: block;
+  overflow: hidden;
+  border: 1px solid #d7d7d7;
+  border-radius: 6px;
+  padding-bottom: 20px;
+}

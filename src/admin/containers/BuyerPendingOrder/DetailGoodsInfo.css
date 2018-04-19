@@ -1,0 +1,31 @@
+
+.container {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.container table tbody tr {
+  border-radius: 4px;
+  background-color: #f7f7f7;
+}
+
+.container table table tbody tr {
+  background-color: #fff;
+}
+
+.table {
+  width: 100%;
+}
+
+.table table td,
+.table table th,
+.tableList table td,
+.tableList table th {
+  padding: 16px 0;
+}
+
+.proimg {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #e8e8e8;
+}

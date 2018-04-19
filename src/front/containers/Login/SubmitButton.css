@@ -1,0 +1,12 @@
+.submit {
+  color: #fff;
+  background-color: #2f93e1;
+  border-color: #2f93e1;
+
+  &:hover,
+  &[disabled]:hover {
+    color: #fff;
+    background-color: #0c9ee4;
+    border-color: #0c9ee4;
+  }
+}

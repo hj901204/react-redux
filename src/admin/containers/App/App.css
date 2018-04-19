@@ -1,0 +1,71 @@
+
+.layout {
+  height: 100%;
+}
+
+.sider {
+  background-color: #2f93e1;
+
+  @media (min-width: 750px) and (max-width: 1200px) {
+    max-width: 100px !important;
+    min-width: 100px !important;
+    width: 100px !important;
+  }
+
+  &.open {
+    overflow-y: auto;
+  }
+
+  & > div {
+    height: 100%;
+  }
+}
+
+.right {
+  position: relative;
+  overflow-y: auto;
+}
+
+.content {
+  background: #e9f0f9;
+  padding: 10px 20px;
+}
+
+::-webkit-scrollbar {
+  /* width: 10px; */
+}
+
+.header {
+  padding: 0;
+  line-height: 60px;
+  height: 60px;
+  background-color: #fff;
+}
+
+.tabs {
+  height: 36px;
+  padding: 0;
+  background-color: transparent;
+  z-index: 10;
+}
+
+.container {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 28px #dee6f6;
+  height: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+
+  & > div {
+    height: 100%;
+
+    & > div {
+      height: 100%;
+    }
+  }
+}
+
+.crollBar {
+  min-height: 300px !important;
+}

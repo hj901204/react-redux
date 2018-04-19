@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  list-style: none;
+}
+
+.table > tbody > tr.success > td {
+  background-color: #e8f4eb;
+}
+
+.breadcrumb > li + li::before {
+  content: ">";
+  font-family: serif;
+}

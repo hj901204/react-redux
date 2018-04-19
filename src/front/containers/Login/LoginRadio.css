@@ -1,0 +1,22 @@
+.item {
+  display: inline-block;
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+
+  & span {
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &.active {
+    color: #2f93e1;
+
+    & span {
+      border-bottom: 2px solid #2f93e1;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.app {
+  height: 100%;
+}
+
+.scrollarea .scrollbar-container {
+  opacity: 0;
+
+  &.horizontal {
+    height: 2px;
+
+    & .scrollbar {
+      height: 2px;
+    }
+  }
+}
+
+/* add by zxl */
+.containers {
+  padding: 20px;
+
+  & .fl { float: left; }
+  & .fr { float: right; }
+
+  & .clear {
+    &::after {
+      content: " ";
+      display: block;
+      clear: both;
+      height: 0;
+    }
+  }
+
+  & .sp {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  & .box {
+    margin-top: 20px;
+  }
+
+  & .paging {
+    margin-top: 15px;
+    float: right;
+  }
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #2f93e1 !important;
+}
+
+.ant-menu-inline {
+  border-right: none !important;
+}
+
+/* body {
+  font-size: 12px;
+}
+
+.ant-table {
+  font-size: 12px !important;
+}
+
+.ant-radio-wrapper {
+  font-size: 12px !important;
+}
+*/
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  padding: 16px 8px !important;
+}

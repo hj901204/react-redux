@@ -1,0 +1,14 @@
+.wrap {
+  background-color: #c8cdd9;
+  height: 400px;
+  & .img1 {
+    width: calc(100% - 150px);
+    float: left;
+    margin-top: 70px;
+  }
+  & .img2 {
+    float: right;
+    margin-top: 140px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,139 @@
+.content {
+  text-align: center;
+  color: rgb(118, 123, 130);
+}
+
+.step {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+
+  /* &.normal:not(:first-child)::before,
+  &.center:not(:last-child)::after,
+  &.center:not(:first-child)::before {
+    content: '';
+    position: absolute;
+    top: 75px;
+    height: 2px;
+    background-color: rgb(225, 228, 233);
+  }
+
+  &.up:not(:first-child)::before,
+  &.up:not(:last-child)::after,
+  &.up:not(:first-child)::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    height: 2px;
+    background-color: rgb(225, 228, 233);
+  }
+
+  &.normal:not(:first-child).active::before,
+  &.center:not(:last-child).active::after,
+  &.center:not(:first-child).active::before {
+    background-color: #2f93e1;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 2px;
+  }
+
+  &.normal:not(:first-child)::before {
+    left: -50%;
+    width: 100%;
+  }
+
+  &.center:not(:first-child)::before {
+    left: -13px;
+    width: 50%;
+  }
+
+  &.center:not(:last-child)::after {
+    margin-left: 13px;
+    left: 50%;
+    width: 50%;
+    z-index: 9;
+  } */
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #d1d1d1;
+  display: inline-block;
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  margin-left: 13px;
+}
+
+.linePos {
+  bottom: 97px;
+}
+
+.lineActive {
+  background-color: #2f93e1;
+}
+
+.number {
+  z-index: 9;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  width: 27px;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  border: 2px solid #9ea6ad;
+  background: #fff;
+  margin-top: -20px;
+
+  @nest .active & {
+    color: #fff;
+    border: 2px solid #2f93e1;
+  }
+}
+
+.curNum {
+  margin-left: -9px;
+}
+
+.cur {
+  z-index: 99;
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  line-height: 9px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #2f93e1;
+  margin-left: -18px;
+  margin-bottom: 8px;
+}
+
+.bottomCur {
+  top: -2px;
+}
+
+.text {
+  padding-top: 5px;
+  line-height: 2;
+  font-size: 14px;
+  height: 33px;
+
+  @nest .active & {
+    color: #2f93e1;
+  }
+}
+
+.mtop {
+  font-size: 12px;
+  margin-top: -25px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 45px;
+  line-height: 1;
+  padding-top: 10px;
+}

@@ -1,0 +1,29 @@
+.content {
+  padding-top: 68px;
+  margin-bottom: 52px;
+
+  @media (min-height: 700px) {
+    padding-top: 67px;
+    margin-bottom: 80px;
+  }
+
+  @media (min-height: 800px) {
+    padding-top: 128px;
+    margin-bottom: 129px;
+  }
+
+  @media (min-height: 1150px) {
+    padding-top: 270px;
+    margin-bottom: 390px;
+  }
+
+  @media (min-height: 1310px) {
+    padding-top: 300px;
+    margin-bottom: 420px;
+  }
+}
+
+.logForm {
+  margin: 0 auto;
+  max-width: 390px;
+}

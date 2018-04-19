@@ -1,0 +1,1322 @@
+
+.LargeScreen{
+    width: 100%;
+    height:1080px;
+    background:#28292c;
+    color:#fff;
+}
+.LargeTop{
+    width:661px;
+    height: 60px;
+    margin: 22px auto 43px;
+}
+.LargeTop ul{
+    height: 100%;
+    overflow: hidden;
+    zoom: 1;
+}
+.LargeTop ul li{
+    float: left;
+    width:15px;
+    height: 60px;
+    margin:0 4px;
+    border:1px solid #1347cb;
+    transform:skewX(-25deg);
+    -webkit-transform:skewX(-25deg);
+    -o-transform:skewX(-25deg);
+    -moz-transform:skewX(-25deg);
+    -ms-transform:skewX(-25deg);
+}
+.LargeTop ul li:first-child{
+    margin-left:15px;
+}
+.LargeTop ul li:nth-child(3){
+    width:540px;
+}
+.LargeTop ul li div{
+    width:100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size:26px;
+    font-style: normal;
+    transform:skewX(25deg);
+}
+.orderStatus{
+    width:62.8%;
+    height:233px;
+    margin:0 auto;
+}
+.threeBigs{
+    width: 33.3333%;
+    float:left;
+}
+.orderBox{
+  width: 250px;
+  height: 233px;
+  margin:0 auto;
+  position: relative;  
+}
+.smicon{
+    width:15px;
+    height:15px;
+    border:1px solid #1347cb;
+    position: absolute;
+}
+.smicon span{
+    width:11px;
+    height:11px;
+    border-top: 1px solid #1347cb;
+    border-left: 1px solid #1347cb;
+    border-bottom:1px solid #28292c;
+    border-right:1px solid #28292c;
+    position: absolute;
+    bottom: -1px;
+    right:-1px;
+}
+
+.orderBox ol li:nth-child(2) .smicon,.tablesCont ol li:nth-child(2) .smicon,.proBox ol li:nth-child(2) .smicon{
+    transform: rotate(90deg);
+    -ms-transform:rotate(90deg); 	
+    -moz-transform:rotate(90deg); 
+    -webkit-transform:rotate(90deg); 
+    -o-transform:rotate(90deg); 
+    position: absolute;
+    top:0;
+    right:0;
+
+}
+.orderBox ol li:nth-child(3) .smicon,.tablesCont ol li:nth-child(3) .smicon,.proBox ol li:nth-child(3) .smicon{
+    transform: rotate(270deg);
+    -ms-transform:rotate(270deg); 	
+    -moz-transform:rotate(270deg); 
+    -webkit-transform:rotate(270deg); 
+    -o-transform:rotate(270deg); 
+    position: absolute;
+    bottom:0;
+    left:0;
+
+}
+.orderBox ol li:last-child .smicon,.tablesCont ol li:last-child .smicon,.proBox ol li:last-child .smicon{
+    transform: rotate(180deg);
+    -ms-transform:rotate(180deg); 	
+    -moz-transform:rotate(180deg); 
+    -webkit-transform:rotate(180deg); 
+    -o-transform:rotate(180deg); 
+    position: absolute;
+    bottom:0;
+    right:0;
+
+}
+
+.order{
+    width:216px;
+    height: 216px;
+    position: absolute;
+    left: 17px;
+    border:14px solid #074272;
+    border-radius:50%;
+    background:rgba(40,41,44,0.75);
+    box-shadow: #074272 0px 0px 20px 3px ;
+}
+.order_one{
+    width:194px;
+    height: 194px;
+    left: -2px;
+    top:-2px;
+    border:2px solid #0066FF;
+    border-radius: 50%;
+    position: absolute;
+}
+.order_two{
+    width:190px;
+    height: 190px;
+    left: 0px;
+    top:0px;
+    text-align: center;
+    font-size: 18px;
+    border:10px solid #074272;
+    border-radius: 50%;
+    position: absolute;
+    padding-top:50px;
+}
+
+
+.tablesCont{
+    width:62.6%;
+    margin:18px auto 12px;
+    border:1px solid #1347cb;
+    position: relative;
+}
+.tablesCont ol li:first-child .smicon,.proBox ol li:first-child .smicon{
+    position: absolute;
+    top:-5px;
+    left:-5px;
+
+}
+.tablesCont ol li:nth-child(2) .smicon,.proBox ol li:nth-child(2) .smicon{
+    position: absolute;
+    top:-5px;
+    right:-5px;
+
+}
+.tablesCont ol li:nth-child(3) .smicon,.proBox ol li:nth-child(3) .smicon{
+    position: absolute;
+    bottom:-5px;
+    left:-5px;
+
+}
+.tablesCont ol li:last-child .smicon,.proBox ol li:last-child .smicon{
+    position: absolute;
+    bottom:-5px;
+    right:-5px;
+
+}
+table th{
+    text-align: center;
+}
+table tbody tr:nth-child(1){
+    background:#042744;
+}
+table thead tr th{
+    border-bottom: 1px solid #333333!important;
+    font-size: 20px;
+    font-weight: normal;
+    padding:24px 8px 20px!important;
+    font-family: 'Microsoft YaHei';
+}
+table tbody tr td{
+    border-bottom: 1px solid #333333!important;
+    font-size: 18px;
+    font-weight: normal;
+    padding:10px 8px 14px!important;
+    font-family: 'Microsoft YaHei';
+}
+.proBox{
+    width: 100%;
+    height:352px;
+    position: relative;
+    border:1px solid #1347cb;
+}
+.schedule{
+    width:88.58%;
+    margin:0 auto;
+    height: 362px;
+}
+.progress{
+    width:100%;
+    height: 22px;
+    position:relative;
+    border:1px solid #28292c;
+    margin-top:-3px;
+}
+.progress_img{
+    width:99%;
+    height: 8px;
+    border:1px solid #999;
+    background: url('../../images/progress.png') repeat center center;
+    margin:6px 2px;
+}
+
+.progress ul li{
+    width: 20px;
+    height:20px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    background:#28292c;
+    text-align: center;
+    line-height: 17px;
+}
+.progress ul li:first-child{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.progress ul li:last-child{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.progress ul li span{
+    display: inline-block;
+    width:8px;
+    height:8px;
+    background:#9a9a9a;
+    border-radius: 50%;
+}
+.fiveBox{
+    height:222px;
+    margin:auto 70px;
+    padding-top:48px;
+}
+
+.fiveBox>ul>li{
+    float:left;
+    width:20%;
+    position: relative;
+    height:170px;
+    z-index:2;
+}
+.step{
+    width:72px;
+    margin:9px auto 0;
+}
+.fiveBox ul>li:nth-child(3) .step{
+    width:120px;
+}
+
+.step ol{
+    overflow: hidden;
+    zoom:1;
+
+}
+.step ol li{
+    color: #8d969e;
+    float: left;
+    width:20px;
+    text-align: center;
+    margin: auto 2px;
+    line-height:14px;
+}
+.step ol li span{
+    width: 8px;
+    height:8px;
+    display: inline-block;
+    border-radius:50%;
+    background:#666666;
+}
+
+
+.fiveBox>ul>li:last-child .inBox{
+    padding-top:35px;
+}
+.outBox{
+    width: 122px;
+    height: 122px;
+    margin:0 auto;
+    border:1px solid #108ee9;
+    border-radius:50%;
+    text-align: center;
+    font-size:16px;
+   
+}
+.inBox{
+    width:100px;
+    height: 100px;
+    display: inline-block;
+    border:5px solid #188eef;
+    border-radius:50%;
+    background:#0D6DBD;
+    margin-top:10px;
+    font-family: 'Microsoft YaHei';
+    padding-top:24px;
+}
+.lineBox{
+    width:2px;
+    height:63px;
+    background:#188eef;
+    margin:-11px auto 0;
+    z-index: 20;
+}
+.dian,.dian_two,.dian_mes,.dian_ai{
+    width:15px;
+    height:15px;
+    background:#242528;
+    border:5px solid #fff;
+    border-radius:50%;
+}
+#dianAnimation{
+   animation:dianAnimation .7s linear 0s infinite;
+}
+#jhAnimation{
+    animation:jhAnimation .7s linear 0s infinite;
+}
+#jhtwoAnimation{
+    animation:jhtwoAnimation .7s linear 0s infinite;
+}
+#dianMesAnimation{
+    animation:dianMesAnimation .7s linear 0s infinite;
+}
+#dianAiAnimation{
+    animation:dianAiAnimation .71s linear 0s infinite;
+}
+#dianMESAnimation{
+    animation:dianMESAnimation .7s linear 0s infinite;
+}
+#dianAIAnimation{
+    animation:dianAIAnimation .7s linear 0s infinite;
+}
+#AIAnimation{
+    animation:AIAnimation .7s linear 0s infinite;
+}
+@keyframes dianAnimation{
+   0%  {opacity:0;transform: scale(1);}
+    50%  {opacity:1;}
+    100% {opacity:0;transform: scale(1.7);}
+}
+@keyframes jhAnimation{
+    0%  {opacity:0;transform: scale(1);}
+    50%  {opacity:1;}
+    100% {opacity:0;transform: scale(1.7);}
+}
+@keyframes jhtwoAnimation{
+    0%  {opacity:0;transform: scale(1);}
+    50%  {opacity:1;}
+    100% {opacity:0;transform: scale(1.7);}
+}
+@keyframes dianMesAnimation{
+    0%  {opacity:0;transform: scale(1);}
+    50%  {opacity:1;}
+    100% {opacity:0;transform: scale(1.7);}
+}
+@keyframes dianAiAnimation{
+    0%  {opacity:0;transform: scale(1);}
+    50%  {opacity:1;}
+    100% {opacity:0;transform: scale(1.7);}
+}
+@keyframes dianMESAnimation{
+    0%  {opacity:0;transform: scale(1);}
+    50%  {opacity:1;}
+    100% {opacity:0;transform: scale(1.7);}
+}
+@keyframes dianAIAnimation{
+    0%  {opacity:0;transform: scale(1);}
+    50%  {opacity:1;}
+    100% {opacity:0;transform: scale(1.7);}
+}
+@keyframes AIAnimation{
+    0%  {opacity:0;transform: scale(1);}
+    50%  {opacity:1;}
+    100% {opacity:0;transform: scale(1.7);}
+}
+.dian{
+    position: absolute;
+    bottom:118px;
+    left:86px;
+}
+.info{
+    color:#108ee9;
+    position: absolute;
+    bottom:116px;
+    left: -6px;
+}
+.dian_two{
+    position: absolute;
+    top:70px;
+    right:86px;
+}
+.ascp{
+    color:#f1a743;
+    position: absolute;
+    top:68px;
+    right: -15px;
+}
+.dian_mes{
+    position: absolute;
+    left:110px;
+    bottom:51px; 
+}
+
+.mes{
+    color:#188eef;
+    position: absolute;
+    bottom:49px;
+    left: 17px;
+}
+.dian_ai{
+    position: absolute;
+    bottom:142px;
+    right:97px;
+}
+.fiveBox>ul>li:last-child .dian_ai{
+    position: absolute;
+    bottom:126px;
+    left:200px;
+}
+.ai{
+    color:#188eef;
+    position: absolute;
+    bottom:140px;
+    right: 21px;
+}
+.cm{
+    color:#6691F2;
+    position: absolute;
+    bottom: 125px;
+    right: -4px;
+}
+.pro_li,.pro_ascp,.pro_ai,.pro_wms,.pro_cm{
+    width:18px;
+    height:18px;
+    border-radius: 50%;
+    margin:0 auto;
+    z-index: 2;
+}
+.pro_li{
+    border:2px solid #188EEF;
+    background:#0D6DBD;
+    box-shadow: #0D6DBD 0px 0px 15px 2px ;
+    
+}
+#proLi{
+    animation:proAnimation .7s linear 0s infinite;
+}
+#proASCP{
+    animation:ascpAnimation .7s linear 0s infinite;
+}
+#proAi{
+   animation:aiAnimation .7s linear 0s infinite; 
+}
+#proWMS{
+     animation:wmsAnimation .7s linear 0s infinite;
+}
+#proCM{
+    animation:cmAnimation .7s linear 0s infinite;
+}
+@keyframes proAnimation{
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes ascpAnimation{
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes aiAnimation{
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes wmsAnimation{
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes cmAnimation{
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+.pro_ascp{
+    border:2px solid #D18010;
+    background:#E79253;    
+    box-shadow: #E79253 0px 0px 15px 2px ;
+}
+.pro_ai{
+    border:2px solid #E85375;
+    background:#EB6D8A;    
+    box-shadow: #EB6D8A 0px 0px 15px 2px ;
+}
+.pro_wms{
+    border:2px solid #40C898;
+    background:#2C9872;    
+    box-shadow: #2C9872 0px 0px 15px 2px ;
+}
+.pro_cm{
+    border:2px solid #6691F2;
+    background:#4F6AA7;    
+    box-shadow: #4F6AA7 0px 0px 15px 2px ;
+}
+
+.radialProgressBar {
+  border-radius: 50%;
+  -webkit-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+  width: 194px;
+  height: 194px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ddd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(90deg);
+  opacity: 0.3;
+  animation:circling 10s linear 0s infinite;
+}
+@keyframes circling{  
+    from{  
+      transform:rotate(0deg);  
+    }  
+    to{  
+      transform:rotate(360deg);  
+    }  
+  }  
+.radialProgressBar .overlay {
+  border-radius: 50%;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  background: red;
+  text-align: center;
+  padding-top: 30%;
+}
+
+@media (min-width:1131px) and (max-width:1600px) {
+    .orderStatus{
+        padding-left: 0px;
+    }
+    .progress{
+        margin-top:-25px;
+    }
+    .fiveBox{
+        height:222px;
+        margin:auto 10px;
+    }
+
+    .fiveBox>ul>li{
+        float:left;
+        position: relative;
+        height:157px;
+    }
+    .outBox{
+        width: 100px;
+        height: 100px;
+        font-size:12px;
+    
+    }
+    .inBox{
+        width:80px;
+        height: 80px;
+        margin-top:9px;
+        padding-top:16px;
+    }
+    .fiveBox ul li:last-child .inBox{
+        padding-top:27px;
+    }
+    .step{
+        width:63px;
+        margin:6px auto 0;
+    }
+    .fiveBox ul>li:nth-child(3) .step{
+        width:105px;
+    }
+    
+    .step ol li{
+        width:17px;
+        line-height: 15px;
+    }
+    .info{
+        position: absolute;
+        left: -27px;
+    }
+    .fiveBox>ul>li:nth-child(2) .info{
+        position: absolute;
+        left: -10px!important;
+    }
+    .fiveBox>ul>li:last-child .dian_ai{
+        position: absolute;
+        bottom:126px;
+        left:151px;
+    }
+    .fiveBox>ul>li:nth-child(3) .dian_ai{
+        position: absolute;
+        bottom:131px;
+        left:147px;
+    }
+    .fiveBox>ul>li:nth-child(4) .dian_ai{
+        position: absolute;
+        bottom:134px;
+        right:73px;
+    }
+    .fiveBox>ul>li:nth-child(3) .ai{
+        position: absolute;
+        bottom:128px;
+        right:-3px;
+    }
+    .fiveBox>ul>li:nth-child(4) .ai{
+        position: absolute;
+        bottom:132px;
+        right:-3px;
+    }
+
+    .dian{
+        position: absolute;
+        left:64px;
+    }
+    .dian_two{
+        position: absolute;
+        right:62px; 
+        top:60px;
+    }
+    .ascp{
+        position: absolute;
+        top:58px;
+        right:-36px;
+    }
+    .dian_mes{
+        position: absolute;
+        left:79px;
+        bottom:59px;
+    }
+    .mes{
+        left: -11px;
+        position: absolute;
+    }
+    .fiveBox>ul>li:nth-child(4) .mes{
+        position: absolute;
+        left: -13px!important;
+    }
+    .cm{
+        position: absolute;
+        right: -23px;
+    }
+}
+@media (min-width:1360px) and (max-width:1440px) {
+    .orderStatus{
+        height:200px;
+    }
+    .orderBox{
+        height:200px;
+        width:214px;
+    }
+    .order{
+        width:186px;
+        height:186px;
+    }
+    .order_two{
+        width:182px;
+        height:182px;
+        left: -11px;
+        top: -11px;
+        position: absolute;
+    }
+    .order_one{
+        width:164px;
+        height: 164px;
+        left: -3px;
+        top: -3px;
+        position: absolute;
+    }
+    .radialProgressBar{
+        width:158px;
+        height: 158px;
+    }
+     table thead tr th {
+        font-size: 18px;
+        font-weight: normal;
+        padding: 14px 8px 14px!important;
+    }
+    table tbody tr td {
+        font-size: 16px;
+        padding: 8px 8px 8px!important;
+    }
+    .fiveBox{
+        padding-top:30px;
+        height:206px;
+    }
+    .proBox,.schedule{
+        height:318px;
+    }
+}
+@media (min-width:901px) and (max-width:1130px) {
+    .progress{
+        margin-top:-52px;
+    }
+     .progress ul li{
+        line-height: 15px;
+    }
+   .orderStatus{
+       padding-left: 0;
+       height: 148px;
+   }
+   .orderBox{
+    width: 158px;
+    height: 144px;
+   }
+   .order{
+     width:120px;
+     height:120px;
+     position: absolute;
+     top: 11px;
+   }
+   .order_one{
+        width:92px;
+        height: 92px;
+        top:0;
+        left: 0;
+    }
+    .order_two{
+        width:88px;
+        height: 88px;
+        font-size: 12px;
+        padding-top:14px;
+    }
+    .order_two span{
+        display: inline-block;
+        transform: scale(0.8);
+        margin-top:-3px;
+    }
+    #orderSucess{
+        padding-top:12px;
+    }
+    .radialProgressBar{
+        width:92px;
+        height: 92px;
+    }
+    table thead tr th {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 10px 8px 10px!important;
+    }
+    table tbody tr td {
+        font-size: 14px;
+        padding: 6px 8px 6px!important;
+    }
+    .proBox{
+        height: 310px;
+    }
+    .fiveBox{
+        height:222px;
+        margin:auto 70px;
+    }
+
+    .fiveBox>ul>li{
+        float:left;
+        position: relative;
+        height:157px;
+    }
+    .outBox{
+        width: 80px;
+        height: 80px;
+        font-size:12px;
+    
+    }
+    .inBox{
+        width:60px;
+        height: 60px;
+        margin-top:9px;
+        padding-top:6px;
+        font-size:12px;
+    }
+    .inBox span{
+        display: inline-block;
+        transform: scale(0.8);
+        margin-top:3px;
+    }
+    .step{
+        width: 63px;
+        margin:6px auto 0;
+    }
+    .fiveBox ul>li:nth-child(3) .step{
+        width:105px;
+    }
+    
+    .step ol li{
+        width:17px;
+        line-height: 15px;
+    }
+    .fiveBox ul li:last-child .inBox{
+        padding-top:14px;
+    }
+    .lineBox{
+        height: 56px;
+    }
+
+    .fiveBox>ul>li:last-child .dian_ai{
+        position: absolute;
+        bottom:126px;
+        left:101px;
+    }
+    .fiveBox>ul>li:nth-child(3) .dian_ai{
+        position: absolute;
+        bottom: 130px;
+        left: 100px;
+    }
+    .fiveBox>ul>li:nth-child(4) .dian_ai{
+        position: absolute;
+        bottom:92px;
+        right:32px;
+    }
+    .fiveBox>ul>li:nth-child(4) .dian_mes{
+        position: absolute;
+        left: 36px;
+        bottom: 80px;
+    }
+    .fiveBox>ul>li:nth-child(3) .dian_mes{
+        position: absolute;
+        left: 40px;
+        bottom: 140px;
+    }
+    .fiveBox>ul>li:nth-child(3) .mes{
+        position: absolute;
+        left: -34px;
+        bottom: 139px;
+    }
+    .fiveBox>ul>li:nth-child(4) .mes{
+        position: absolute;
+        left: -40px!important;
+        bottom: 77px;
+    }
+    .fiveBox>ul>li:nth-child(3) .ai{
+        position: absolute;
+        bottom:129px;
+        right:-28px;
+    }
+    .fiveBox>ul>li:nth-child(4) .ai{
+        position: absolute;
+        bottom:90px;
+        right:-31px;
+    }
+    .info{
+        position: absolute;
+        left: -47px;
+    }
+    .fiveBox ul>li:nth-child(2) .info{
+        position: absolute;
+        bottom:137px;
+        left: -26px!important;
+    }
+    .dian{
+        position: absolute;
+        left: 28px;
+    }
+    .fiveBox ul>li:nth-child(2) .dian{
+        position: absolute;
+        left:39px;
+        bottom:138px;
+    }
+    .dian_two{
+        position: absolute;
+        right: 46px;
+        top: 67px; 
+    }
+    .ascp{
+        position: absolute;
+        top: 70px;
+        right: -36px;
+    }
+    .cm{
+        position: absolute;
+        right:-43px; 
+    }
+    .mes,.ai,.info,.ascp,.mes,.scm,.cm{
+        font-size:12px;
+        transform: scale(0.9)
+    }
+}
+@media (min-width:769px) and (max-width:900px) {
+    .schedule{
+        width:89.58%;
+    }
+    .progress{
+        margin-top:-52px;
+    }
+    .progress ul li{
+        line-height: 15px;
+    }
+    .tablesCont{
+        width:71%;
+    }
+   .orderStatus{
+       padding-left:0;
+       height: 130px;
+       margin: 0 auto;
+       margin-left:132px;
+   }
+   .orderBox{
+    width: 136px;
+    height: 121px;
+   }
+   .order{
+     width:100px;
+     height:100px;
+     position: absolute;
+     top: 11px;
+   }
+   .order_one{
+        width:82px;
+        height: 82px;
+        top:-5px;
+        left:-5px;
+    }
+    .order_two{
+        width:78px;
+        height: 78px;
+        font-size: 12px;
+        padding-top:6px;
+    }
+    .order_two span{
+        display: inline-block;
+        transform: scale(0.7);
+        margin-top:-1px;
+        width:60px;
+    }
+    .radialProgressBar{
+        width:82px;
+        height: 82px;
+        position: absolute;
+        top: -5px;
+        left: -3px;
+    }
+    table thead tr th {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 10px 8px 10px!important;
+    }
+    table tbody tr td {
+        font-size: 14px;
+        padding: 6px 8px 6px!important;
+    }
+    .proBox{
+        height: 310px;
+    }
+    .fiveBox{
+        height:222px;
+        margin:auto 40px;
+    }
+
+    .fiveBox>ul>li{
+        float:left;
+        position: relative;
+        height:157px;
+    }
+    .outBox{
+        width: 80px;
+        height: 80px;
+        font-size:12px;
+    
+    }
+    .inBox{
+        width:60px;
+        height: 60px;
+        margin-top:9px;
+        padding-top:6px;
+        font-size:12px;
+    }
+    .inBox span{
+        display: inline-block;
+        transform: scale(0.8);
+        margin-top:3px;
+    }
+    .fiveBox ul li:last-child .inBox{
+        padding-top:14px;
+    }
+    .lineBox{
+        height: 56px;
+    }
+    .step{
+        width:54px;
+        margin:6px auto 0;
+    }
+    .fiveBox ul>li:nth-child(3) .step{
+        width:90px;
+    }
+    .step ol li{
+        width:14px;
+        line-height: 15px;
+    }
+    .fiveBox>ul>li:last-child .dian_ai{
+        position: absolute;
+        bottom:126px;
+        left:98px;
+    }
+    .fiveBox>ul>li:nth-child(3) .dian_ai{
+        position: absolute;
+        bottom:137px;
+        left:89px;
+    }
+    .fiveBox>ul>li:nth-child(4) .dian_ai{
+        position: absolute;
+        bottom:142px;
+        right:34px;
+    }
+    .fiveBox>ul>li:nth-child(4) .dian_mes{
+        position: absolute;
+        left: 38px;
+        bottom: 77px;
+    }
+    .fiveBox>ul>li:nth-child(3) .dian_mes{
+        position: absolute;
+        left: 32px;
+        bottom: 142px;
+    }
+    .fiveBox>ul>li:nth-child(3) .mes{
+        position: absolute;
+        left: -38px;
+        bottom: 146px;
+    }
+    .fiveBox>ul>li:nth-child(4) .mes{
+        position: absolute;
+        left: -41px!important;
+        bottom: 68px;
+    }
+    .fiveBox>ul>li:nth-child(3) .ai{
+        position: absolute;
+        bottom:138px;
+        right:-32px;
+    }
+    .fiveBox>ul>li:nth-child(4) .ai{
+        position: absolute;
+        bottom:141px;
+        right:-30px;
+    }
+    .info{
+        position: absolute;
+        left: -59px;
+        bottom:114px;
+    }
+    .fiveBox ul>li:nth-child(2) .info{
+        position: absolute;
+        bottom:140px;
+        left: -33px!important;
+    }
+    .dian{
+        position: absolute;
+        bottom: 118px;
+        left: 19px;
+    }
+    .fiveBox ul>li:nth-child(2) .dian{
+        position: absolute;
+        left:33px;
+        bottom:143px;
+    }
+    .dian_two{
+        position: absolute;
+        right:33px; 
+        top:66px;
+    }
+    .ascp{
+        position: absolute;
+        top:73px;
+        right:-46px;
+    }
+    .cm{
+        position: absolute;
+        right:-55px; 
+        bottom:123px;
+    }
+    .mes,.ai,.info,.ascp,.mes,.scm,.cm{
+        font-size:12px;
+        transform: scale(0.8)
+    }
+    .dian,.dian_two,.dian_mes,.dian_ai{
+        width:11px;
+        height:11px;
+        background:#242528;
+        border:4px solid #fff;
+        border-radius:50%;
+    }
+}
+@media screen and (max-width:768px) {
+    .schedule{
+        width:89.58%;
+    }
+    .progress{
+        margin-top:-52px;
+    }
+    .progress ul li{
+        line-height: 15px;
+    }
+    .tablesCont{
+        width:71%;
+    }
+   .orderStatus{
+       padding-left:0;
+       height: 130px;
+       margin: 0 auto;
+       margin-left:132px;
+   }
+   .orderBox{
+    width: 136px;
+    height: 121px;
+   }
+   .order{
+     width:100px;
+     height:100px;
+     position: absolute;
+     top: 11px;
+   }
+   .order_one{
+        width:82px;
+        height: 82px;
+        top:-5px;
+        left:-5px;
+    }
+    .order_two{
+        width:78px;
+        height: 78px;
+        font-size: 12px;
+        padding-top:6px;
+    }
+    .order_two span{
+        display: inline-block;
+        transform: scale(0.7);
+        margin-top:-1px;
+        width:60px;
+    }
+    .radialProgressBar{
+        width:82px;
+        height: 82px;
+        position: absolute;
+        top: -5px;
+        left: -3px;
+    }
+    table thead tr th {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 10px 8px 10px!important;
+    }
+    table tbody tr td {
+        font-size: 14px;
+        padding: 6px 8px 6px!important;
+    }
+    .proBox{
+        height: 310px;
+    }
+    .fiveBox{
+        height:222px;
+        margin:auto 40px;
+    }
+
+    .fiveBox>ul>li{
+        float:left;
+        position: relative;
+        height:157px;
+    }
+    .outBox{
+        width: 80px;
+        height: 80px;
+        font-size:12px;
+    
+    }
+    .inBox{
+        width:60px;
+        height: 60px;
+        margin-top:9px;
+        padding-top:6px;
+        font-size:12px;
+    }
+    .inBox span{
+        display: inline-block;
+        transform: scale(0.8);
+        margin-top:3px;
+    }
+    .fiveBox ul li:last-child .inBox{
+        padding-top:14px;
+    }
+    .lineBox{
+        height: 56px;
+    }
+    .step{
+        width:54px;
+        margin:6px auto 0;
+    }
+    .fiveBox ul>li:nth-child(3) .step{
+        width:90px;
+    }
+    .step ol li{
+        width:14px;
+        line-height: 15px;
+    }
+    .fiveBox>ul>li:last-child .dian_ai{
+        position: absolute;
+        bottom:126px;
+        left:89px;
+    }
+    .fiveBox>ul>li:nth-child(3) .dian_ai{
+        position: absolute;
+        bottom:137px;
+        left:81px;
+    }
+    .fiveBox>ul>li:nth-child(4) .dian_ai{
+        position: absolute;
+        bottom:142px;
+        right:29px;
+    }
+    .fiveBox>ul>li:nth-child(4) .dian_mes{
+        position: absolute;
+        left: 34px;
+        bottom: 77px;
+    }
+    .fiveBox>ul>li:nth-child(3) .dian_mes{
+        position: absolute;
+        left: 27px;
+        bottom: 142px;
+    }
+    .fiveBox>ul>li:nth-child(3) .mes{
+        position: absolute;
+        left: -38px;
+        bottom: 146px;
+    }
+    .fiveBox>ul>li:nth-child(4) .mes{
+        position: absolute;
+        left: -41px!important;
+        bottom: 68px;
+    }
+    .fiveBox>ul>li:nth-child(3) .ai{
+        position: absolute;
+        bottom:138px;
+        right:-32px;
+    }
+    .fiveBox>ul>li:nth-child(4) .ai{
+        position: absolute;
+        bottom:141px;
+        right:-30px;
+    }
+    .info{
+        position: absolute;
+        left: -59px;
+        bottom:114px;
+    }
+    .fiveBox ul>li:nth-child(2) .info{
+        position: absolute;
+        bottom:140px;
+        left: -33px!important;
+    }
+    .dian{
+        position: absolute;
+        bottom: 118px;
+        left: 14px;
+    }
+    .fiveBox ul>li:nth-child(2) .dian{
+        position: absolute;
+        left:28px;
+        bottom:143px;
+    }
+    .dian_two{
+        position: absolute;
+        right:29px; 
+        top:66px;
+    }
+    .ascp{
+        position: absolute;
+        top:73px;
+        right:-46px;
+    }
+    .cm{
+        position: absolute;
+        right:-55px; 
+        bottom:123px;
+    }
+    .mes,.ai,.info,.ascp,.mes,.scm,.cm{
+        font-size:12px;
+        transform: scale(0.8)
+    }
+    .dian,.dian_two,.dian_mes,.dian_ai{
+        width:11px;
+        height:11px;
+        background:#242528;
+        border:4px solid #fff;
+        border-radius:50%;
+    }
+}
+

@@ -1,0 +1,35 @@
+.head{
+  height:72px;
+}
+.wrap {
+  height: 72px;
+  background-color:#fff!important;
+  border-bottom:1px solid #ddd;
+  color: #fff;
+  position: fixed;
+  top: 32px;
+  width: 100%;
+  z-index: 999;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+}
+
+.search {
+  padding-top: 36px;
+}
+
+.sider {
+  width: 180px;
+  position: absolute;
+  left: 15px;
+  top: 0;
+  z-index: 10;
+}
+
+.nav {
+  height: 100%;
+  line-height: 72px;
+}

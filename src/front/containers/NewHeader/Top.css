@@ -1,0 +1,93 @@
+.wrap {
+  height: 32px;
+  background-color: #28292c;
+  border-bottom: 1px solid #ddd;
+  line-height: 32px;
+  font-size: 12px;
+  color: #fff;
+  font-family:"Microsoft YaHei";
+}
+
+.text {
+  position: relative;
+  display: inline-block;
+  height: 32px;
+
+  &:not(:first-child) {
+    margin-left: 12px;
+  }
+
+  &:not(:last-child) {
+    margin-right: 12px;
+  }
+
+  &.nomargin {
+    margin: 0;
+  }
+
+  & > a {
+    color: #fff;
+
+    &:not(:first-child) {
+      margin-left: 5px;
+    }
+
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+}
+
+.auth {
+  color: #ff2d58 !important;
+  margin-left: 20px !important;
+}
+
+.auth:hover {
+  text-decoration: none;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.dropdown,
+.dropaccount {
+  font-size: 12px;
+  float: right;
+  left: -10px;
+  top: 98%;
+  width: 190px;
+  height: 92px;
+  line-height: 20px;
+  text-align: left;
+  color: #777;
+
+  & a {
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  & .role {
+    font-size: 14px;
+  }
+
+  & .rolel {
+    padding-left: 15px;
+    width: 94px;
+    float: left;
+  }
+
+  & .roler {
+    padding-left: 15px;
+    width: 94px;
+    float: left;
+  }
+}
+
+.dropaccount {
+  min-width: 100px;
+  width: 100px;
+  padding-left: 15px;
+}

@@ -1,0 +1,92 @@
+.footer{
+    width:100%;
+    height: 280px;
+    background: #28292c;
+    font-family:"Microsoft YaHei";
+}
+.footerBox{
+    height:100%;
+    width:1170px;
+    margin:0 auto;
+    color:#fff;
+    padding:0 20px;
+}
+.footerBox .footerUl{
+    padding-top:48px;
+}
+.footerUl li:first-child{
+    margin-bottom:35px;
+}
+.wechat li:first-child{
+    margin-bottom:10px;
+    text-align: right;
+}
+.wechat{
+    text-align: center;
+}
+.wechat li:last-child{
+    margin-bottom: 0;
+    text-align: right;
+}
+.wechat span{
+    display: inline-block;
+    width:139px;
+    height:139px;
+    background:url(../../images/pic.jpg) no-repeat center center;
+    
+}
+.wechat h4{
+    margin-right: 20px;
+}
+.footerUl li{
+    margin-bottom:5px;
+}
+.footerUl li h4{
+    font-size:20px;
+}
+@media (min-width:1035px) and (max-width:1370px) {
+
+    .wechat li:first-child,.wechat li:last-child{
+        text-align: center;
+    }
+    .wechat h4{
+        margin-right: 0px;
+    }
+
+}
+@media screen and (max-width:1030px) {
+    .footer{
+        font-size:12px;
+        width: 100%;
+        height: 210px;
+    }
+    .footerBox{
+        width: 100%;
+        padding:0 60px;
+    }
+    .footerBox .footerUl{
+        padding-top:38px;
+    }
+    .footerUl li h4{
+        font-size:16px;
+    }
+    .wechat span{
+        display: inline-block;
+        width:80px;
+        height:80px;
+        background:url(../../images/pic.jpg) no-repeat center center;
+        background-size:80px 80px;
+    }
+    .wechat h4{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footerBox{
+        padding:0 5px;
+    }
+    .wechat h4{
+        margin-right: 0px;
+    }
+}

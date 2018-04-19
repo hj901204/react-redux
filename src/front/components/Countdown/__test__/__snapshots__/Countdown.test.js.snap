@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Countdown /> renders 1`] = `
+<button
+  className="btn btn-default"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  获取短信验证码
+</button>
+`;
+
+exports[`<Countdown /> renders disabled 1`] = `
+<button
+  className="btn btn-default disabled"
+  disabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  获取短信验证码
+</button>
+`;
+
+exports[`<Countdown /> renders text 1`] = `
+<button
+  className="btn btn-default"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  验证码
+</button>
+`;

@@ -1,0 +1,56 @@
+.form {
+  border: solid 1px #dedede;
+  border-radius: 10px;
+}
+
+.header {
+  height: 80px;
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 30px;
+}
+
+.body {
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 20px;
+}
+
+.group {
+  margin-bottom: 0;
+}
+
+.input {
+  height: 42px;
+  border: 1px solid #dedede;
+}
+
+.countdown,
+.countdown:hover,
+.countdown[disabled]:hover {
+  height: 42px;
+  border: 1px solid #2f93e1;
+  color: #2f93e1;
+}
+
+.help {
+  font-size: 12px;
+  height: 24px;
+  padding-top: 4px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.addon {
+  color: #dedede;
+  border: 1px solid #dedede;
+}

@@ -1,0 +1,9 @@
+.wrap {
+  padding-top: 36px;
+  margin-right: 108px;
+
+  & img {
+    width: 84px;
+    height: 29px;
+  }
+}
